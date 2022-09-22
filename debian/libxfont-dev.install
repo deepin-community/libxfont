@@ -1,0 +1,8 @@
+usr/include/X11/*
+usr/lib/*/libXfont2.a
+usr/lib/*/libXfont2.so
+usr/lib/*/pkgconfig/xfont2.pc
+
+# Extra doc, under noinst_* in doc/Makefile.am:
+../../build-main/doc/*.html usr/share/doc/libxfont-dev/
+../../build-main/doc/*.txt  usr/share/doc/libxfont-dev/

@@ -1,3 +1,15 @@
+libxfont (1:2.0.6-1+deb13u1) trixie-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * bitscale: fix integer overflow in BitmapScaleBitmaps bytestoalloc
+    (CVE-2026-56001) (Closes: #1141702)
+  * pcfread: validate bitmap sizes and offsets against per-glyph metrics
+    (CVE-2026-56002) (Closes: #1141702)
+  * bitscale: add bounds check to computeProps for property buffer
+    (CVE-2026-56003) (Closes: #1141702)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 10 Jul 2026 14:32:27 +0200
+
 libxfont (1:2.0.6-1) unstable; urgency=medium
 
   * New upstream release.

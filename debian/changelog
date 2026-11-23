@@ -1,3 +1,12 @@
+libxfont (1:2.0.6-1+deb13u1deepin4) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-109909 (unknown) - bufio,pcf: reject negative
+    skip count in BufFileRawSkip   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxfont/-
+    /commit/dc6c313071c8b2929b1bc165e40c8ba62737b576
+
+ -- deepin-ci-robot <packages@deepin.org>  Mon, 23 Nov 2026 23:31:37 +0800
+
 libxfont (1:2.0.6-1+deb13u1deepin3) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).

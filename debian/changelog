@@ -8,6 +8,11 @@ libxfont (1:2.0.6-1+deb13u1deepin4) unstable; urgency=medium
     strike_index   Upstream:
     https://gitlab.freedesktop.org/xorg/lib/libxfont/-
     /commit/539f716dabe0137097ed6b8492cae1c3321c4d69
+  * fix(cve): CVE-2026-109909 (follow-up) - bufio: backport the off_t
+    change from b4b3518 and make the BufFileRawSkip() buffer test
+    overflow-safe on the 2.0.6 baseline   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libxfont/-
+    /commit/b4b35189d54bef2c5d6062518076505167c3dd9b
 
  -- deepin-ci-robot <packages@deepin.org>  Mon, 23 Nov 2026 23:31:37 +0800
 

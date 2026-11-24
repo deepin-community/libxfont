@@ -2,4 +2,5 @@
 CVE-2026-44950.patch
 CVE-2026-59679.patch
 CVE-2026-109909.patch
+CVE-2026-109909-bufio-offt.patch
 CVE-2026-109920.patch
